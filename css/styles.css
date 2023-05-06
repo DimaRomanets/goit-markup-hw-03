@@ -337,6 +337,7 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 
 }
 
@@ -347,6 +348,7 @@ img {
     width: 264px;
     flex-direction: column;
     padding: 32px 16px;
+
 
 
 }
@@ -378,7 +380,7 @@ img {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    display: inline-block;
+
 
 }
 
@@ -388,7 +390,7 @@ img {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-    display: inline-block;
+
 }
 
 .logo-link-footer {
@@ -401,8 +403,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
-
-
+    display: inline-block;
 }
 
 .logo-footer-studio {
