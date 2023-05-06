@@ -62,11 +62,15 @@ img {
 
 /* Header */
 /* LOGO */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .header-container {
     display: flex;
     align-items: center;
     padding: 24px 0;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-link-header {
@@ -106,6 +110,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
+    padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -258,11 +263,16 @@ img {
 
 
 /* Section 2 */
+
+.section-work {
+    padding-bottom: 120px;
+}
+
+
 .container-section-work {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 120px;
 }
 
 .work-items {
@@ -308,7 +318,6 @@ img {
 }
 
 .section-team-title {
-    /* font-family: var(--primary-font); */
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -318,6 +327,7 @@ img {
     text-transform: capitalize;
     color: var(--primery-text-color-theme-light);
     margin-bottom: 72px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-team-item {
@@ -336,9 +346,7 @@ img {
     width: 264px;
     flex-direction: column;
     padding: 32px 16px;
-    margin-bottom: 8px;
-    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-    border-radius: 0px 0px 4px 4px;
+
 
 }
 
@@ -350,6 +358,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
+    margin-bottom: 8px
 }
 
 .section-team-text {
@@ -366,10 +375,8 @@ img {
 /* footer */
 .container-footer {
     display: flex;
-    display: inline-block;
     align-items: stretch;
     flex-direction: column;
-    margin-bottom: 16px;
 }
 
 
@@ -378,6 +385,20 @@ img {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.logo-link-footer {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-bottom: 16px;
+    display: inline-block;
+
 }
 
 .logo-footer-studio {
@@ -487,7 +508,6 @@ img {
     width: 360px;
     flex-direction: column;
     padding: 32px 16px;
-    margin-bottom: 8px;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
@@ -503,6 +523,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
     padding-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio-work-text {
