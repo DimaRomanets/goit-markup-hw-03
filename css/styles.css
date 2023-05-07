@@ -52,8 +52,7 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .section {
@@ -384,6 +383,9 @@ img {
 
 }
 
+a {
+    display: inline-block;
+}
 
 
 .page-footer {
@@ -403,7 +405,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
-    display: inline-block;
+
 }
 
 .logo-footer-studio {
