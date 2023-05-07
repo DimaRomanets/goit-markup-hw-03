@@ -83,6 +83,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+
     margin-right: 76px;
 }
 
@@ -223,9 +224,13 @@ img {
 
 /* Section 1 */
 
+.information-title {
+    text-decoration: none;
+}
+
 
 .container-section-information {
-    display: flex;
+
     align-items: center;
 }
 
@@ -254,7 +259,7 @@ img {
 
 /* для всіх абзаців */
 .information-subtitle {
-    /* font-family: var(--primary-font); */
+
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -264,13 +269,13 @@ img {
 }
 
 .information-subtitle-text {
-    /* font-family: var(--primary-font); */
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* color: var(--secondary-text-color-theme-light); */
+
 }
 
 
@@ -304,6 +309,8 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primery-text-color-theme-light);
+
+
     margin-bottom: 72px;
 }
 
@@ -326,7 +333,7 @@ img {
 .section-team-list {
     display: flex;
     gap: 24px;
-    /* width: calc((100% - 72px) / 4); */
+
 }
 
 .section-team-title {
@@ -343,22 +350,17 @@ img {
 }
 
 .section-team-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-
+    width: calc((100% - 72px) / 4);
 }
 
 
 .container-text-team {
     display: flex;
     text-align: center;
-    width: 264px;
     flex-direction: column;
     padding: 32px 16px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 
 
 
@@ -391,8 +393,6 @@ img {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-
-
 }
 
 
@@ -422,13 +422,7 @@ img {
 }
 
 .logo-footer-studio {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+
     color: #F4F4FD;
 }
 
@@ -455,16 +449,31 @@ img {
 
 /* one list */
 
+
 .portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
 }
 
 .container-portfolio {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
 
+}
+
+.portfolio-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rest(0 0 0 0);
+    overflow: hidden;
 }
 
 .portfolio-title-list {
@@ -476,8 +485,9 @@ img {
 
 
 
+
+
 .modal-btn-portfolio {
-    padding: 12px 24px;
     font-family: var(--primary-font);
     font-style: normal;
     font-weight: 500;
@@ -487,8 +497,10 @@ img {
     color: #4D5AE5;
     background-color: #F4F4FD;
     cursor: pointer;
+
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    padding: 12px 24px;
 }
 
 
@@ -540,7 +552,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
-    padding-left: 16px;
     margin-bottom: 8px;
 }
 
@@ -551,5 +562,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
-    padding-left: 16px;
+
 }
