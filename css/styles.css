@@ -105,10 +105,8 @@ img {
     gap: 40px;
 }
 
-.menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+.menu-item {}
+
 
 
 .menu-link {
@@ -118,6 +116,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+
 
 
 }
@@ -152,6 +155,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-light);
+
+
 
 
 }
@@ -417,6 +422,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
+
     display: inline-block;
 
 
