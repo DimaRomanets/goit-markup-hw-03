@@ -52,7 +52,8 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .section {
@@ -70,7 +71,8 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-link-header {
@@ -392,6 +394,8 @@ img {
 
 }
 
+
+
 .logo-link-footer {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -403,6 +407,7 @@ img {
     color: #4D5AE5;
     margin-bottom: 16px;
     display: inline-block;
+
 
 }
 
