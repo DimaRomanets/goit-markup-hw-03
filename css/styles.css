@@ -71,8 +71,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .logo-link-header {
@@ -105,6 +104,12 @@ img {
     gap: 40px;
 }
 
+.menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
 .menu-link {
     font-style: normal;
     font-weight: 500;
@@ -112,7 +117,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
-    padding: 24px 0;
+
+
 }
 
 .menu-link:hover,
@@ -168,7 +174,7 @@ img {
 
 .container-text-hero {
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 
@@ -239,6 +245,10 @@ img {
 .information-subtitle {
     margin-bottom: 8px;
 
+}
+
+.information-title {
+    visibility: hidden;
 }
 
 
@@ -506,8 +516,6 @@ img {
 }
 
 .portfolio-work-item {
-    display: flex;
-    flex-wrap: wrap;
     width: calc((100% - 48px) / 3);
 
 }
