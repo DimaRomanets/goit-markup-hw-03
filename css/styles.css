@@ -383,9 +383,6 @@ img {
 
 }
 
-a {
-    display: inline-block;
-}
 
 
 .page-footer {
@@ -405,6 +402,7 @@ a {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-bottom: 16px;
+    display: inline-block;
 
 }
 
