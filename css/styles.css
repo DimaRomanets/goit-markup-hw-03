@@ -427,6 +427,7 @@ img {
 }
 
 .logo-footer-studio {
+    display: inline-block;
 
     color: #F4F4FD;
 }
