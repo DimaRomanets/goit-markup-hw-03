@@ -375,6 +375,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primery-text-color-theme-light);
+
     margin-bottom: 8px
 }
 
@@ -439,6 +440,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color-theme-dark);
+
     max-width: 264px
 }
 
